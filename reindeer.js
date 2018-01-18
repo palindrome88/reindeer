@@ -8,7 +8,7 @@ for( var i=0; i < colors.length; i++){
 
     var name = colors[i];
 
-    hohohoElement = document.appendChild(name);
+    hohohoElement.innerHTML += colors[i] + " " + reindeer[i] + "</br>";
 
     
 }
